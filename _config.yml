@@ -1,0 +1,11 @@
+# Site settings
+title: Blitzed-Ride
+email: hello@blitzed-ride.com
+description: > #
+  Blitzed-ride puts and end to drunk-driving. Send an alert to your support network and get a safe ride home.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blitzed-ride.com" # the base hostname & protocol for your site
+github_username:  blitzed-ride
+
+# Build settings
+markdown: kramdown
