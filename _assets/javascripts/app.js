@@ -28,3 +28,10 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('input').keyup(function (e) {
+    if (e.keyCode == 13) {
+        // subscribe to mailchimp
+        // $.post('/lists/subscribe')
+    }
+});
