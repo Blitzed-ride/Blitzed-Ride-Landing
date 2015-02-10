@@ -247,22 +247,21 @@ a {
     padding-top: 100px;
 }
 
-.download-section {
+.newsletter-section {
     width: 100%;
     padding: 50px 0;
     color: $light;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(<%= asset_path "newsletter-bg.jpg" %>) no-repeat center center scroll;
     background-color: $dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
 
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    input {
+        font-size: 18px;
+        text-align: center;
+    }
 }
 
 @media(min-width:767px) {
